@@ -19,7 +19,7 @@
 
 ![Windows 中的便笺浮动对象](screenshots/notes-windows.png)
 
-MewuAI 1.0.4 候选版本与本插件 0.1.1 的原生窗口实拍；只裁去了窗口外的桌面。已验证输入、自动保存、Esc 关闭、重开恢复及退出截图后置顶保留。三端完整验收和安装包发布仍在进行。
+MewuAI 1.0.4 候选版本与本插件 0.1.2 的原生窗口实拍；只裁去了窗口外的桌面。已验证输入、自动保存、Esc 关闭、重开恢复及退出截图后置顶保留。三端完整验收和安装包发布仍在进行。
 
 ## 安装
 
@@ -32,7 +32,7 @@ MewuAI 1.0.4 候选版本与本插件 0.1.1 的原生窗口实拍；只裁去了
 在 [Mewu 源码仓库](https://github.com/abnste/mewu_ai) 中编译插件校验器后，用其发行工具对本项目打包：
 
 ```sh
-node /path/to/mewu_ai/tools/extension-market/cli.mjs pack . --file view.mjs --out mewu-plugin-research-notes-0.1.1.zip --validator /path/to/mewu-plugin-validator
+node /path/to/mewu_ai/tools/extension-market/cli.mjs pack . --file view.mjs --out mewu-plugin-research-notes-0.1.2.zip --validator /path/to/mewu-plugin-validator
 ```
 
 插件 ID 保持不变，更新不会另建一份存储。停用和卸载会撤销界面与执行权限，但保留插件自身内容；重装同一插件可以恢复。
